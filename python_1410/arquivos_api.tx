@@ -1,0 +1,43 @@
+persistencia de dados:
+texto - arquivos txt
+binario - uso de 0 e 1 
+Json - 
+Csv -
+
+----------------------------------------------------------------------------------------------------------
+
+Arquivo 
+- Coisa mais simples, estatica, arquivo nao tem grande gerenciamento, exemplo mudar plano de fundo do celular
+
+Banco de dados 
+- Coisas mais complexas, como exemplo transação bancaria, mais seguro
+
+----------------------------------------------------------------------------------------------------------
+
+parametros do open:
+
+open('livros.json', 'w ou r ou a', encoding = 'utf-8')  as arquivo
+a - append - vai adicionando / dando append nas informações
+w - write - vai sempre apagar tudo e faz um novo
+r - read - não consegue alterar / editar
+as arquivo - nomeando
+
+----------------------------------------------------------------------------------------------------------
+
+operador ternario
+
+status = livro['disponivel']
+
+status = "Disponível" if livro['disponivel'] else "Emprestado"
+
+----------------------------------------------------------------------------------------------------------
+
+api - Servico que esta online, onde você pode solicitar informações / dados sobre qualquer coisa, mas você precisa saber como ela funciona. exemplo: viacep
+
+----------------------------------------------------------------------------------------------------------
+
+Estudar HTTPS response status codes
+
+----------------------------------------------------------------------------------------------------------
+
+ConnectionError

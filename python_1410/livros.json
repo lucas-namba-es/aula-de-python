@@ -1,0 +1,23 @@
+{
+    "categoria": "Tecnologia",
+    "livros": [
+        {
+            "titulo": "Entendendo Algoritimos com Python",
+            "autor": "Autor 1",
+            "ano_publicacao": 2026,
+            "disponivel": true
+        },
+        {
+            "titulo": "Python Fluente",
+            "autor": "Autor 2",
+            "ano_publicacao": 2020,
+            "disponivel": false
+        },
+        {
+            "titulo": "Java Fluente",
+            "autor": "Autor 67",
+            "ano_publicacao": 1999,
+            "disponivel": false
+        }
+    ]
+}
